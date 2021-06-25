@@ -29,7 +29,7 @@ patch:
       - {click: 4, label: ghi, long_click: Home, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
       - {click: 5, label: jkl, long_click: Escape, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
       - {click: 6, label: mno, long_click: End, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
-      - {click: "@", composing: Up, width: 16, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, long_click: "#"}
+      - {click: Escape, width: 16, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
     #第三行
       - {key_back_color: bh3, key_text_color: th3, width: 100, height: 7}
       - {click: "?", long_click: "!", key_back_color: keyboard_back_color, key_text_color: text_color, width: 15}
