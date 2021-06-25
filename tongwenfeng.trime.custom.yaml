@@ -22,7 +22,7 @@ patch:
       - {click: 1, label: "'", composing: "'", long_click: Zdic, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
       - {click: 2, label: abc, long_click: select_all, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
       - {click: 3, label: def, long_click: "+", swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right}
-      - {click: BackSpace, long_click: "-", width: 16}
+      - {click: BackSpace, width: 16}
     #第二行
       - {key_back_color: bh2, key_text_color: th2, width: 100, height: 7}
       - {click: ".", long_click: ":", key_back_color: keyboard_back_color, key_text_color: text_color, width: 15, swipe_left: Left, swipe_right: Right}
